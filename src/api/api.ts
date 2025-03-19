@@ -12,10 +12,10 @@ export const signUp = async (userData: {
   dob: string;
   gender: string;
   address: string;
-  role: string;
+  role_type: string;
 }) => {
   try {
-    const response = await axios.post(`${API_BASE_URL}/register/`, userData);
+    const response = await axios.post(`${API_BASE_URL}/signup/`, userData);
     return response.data;
   } catch (error: any) {
     throw error.response ? error.response.data : error.message;
