@@ -15,7 +15,7 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar";
 
-import TableComp from "@/components/tablecomponent";
+import TableComp from "@/components/artist/tablecomponent";
 import { Card } from "@/components/ui/card";
 
 export default function Page() {
